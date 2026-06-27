@@ -23,13 +23,8 @@ export default function About() {
 
       <h3>🚀 What I'm Doing</h3>
 
-      <div style={{
-        display:"grid",
-        gridTemplateColumns:"repeat(auto-fit,minmax(220px,1fr))",
-        gap:"15px"
-      }}>
-
-        <div className="card">
+      <div className="about-grid">
+<div className="card about-card">
           💻 <b>Web Development</b>
           <p>Building responsive and dynamic web applications using modern technologies.</p>
         </div>

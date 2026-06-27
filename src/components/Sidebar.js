@@ -2,7 +2,13 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin } from "react
 
 export default function Sidebar() {
   return (
-    <div className="card" style={{ width:"300px" }}>
+    <div
+  className="card"
+  style={{
+    width: "300px",
+    maxWidth: "100%"
+  }}
+>
 
       <div style={{ textAlign:"center" }}>
         <img

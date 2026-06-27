@@ -7,8 +7,7 @@ export default function Home() {
     <div className="main">
       
       <Sidebar />
-
-      <div style={{flex:1}}>
+<div className="home-content">
         <About />
         
       </div>
